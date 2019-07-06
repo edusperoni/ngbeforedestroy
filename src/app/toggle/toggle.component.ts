@@ -23,7 +23,7 @@ export class ToggleComponent implements OnInit, AfterViewInit, OnDestroy  {
   ngOnDestroy() {
     if (!this.first) { this.vc.detach(0); }
     this.first = true;
-    console.log('ondestroy');
+    console.log('toggle ondestroy');
   }
 
 }
